@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <div id="report">
+    <div class="form-class" >
+      <button id="button-x2"><div id="x-icon"></div></button>
+      <h2>Report</h2>
+      <form>
+        URL<br>
+        <input id="urlReport" type="text" required>
+        <br>Note<br>
+        <input type="textarea" col="40" row="40" id="noteReport" required></textarea>
+        <div class="form-group">
+          <br>Mode<br>
+          <select class="form-control" id="modeReport" name="modeReport">
+              <option value="antibrahmin">Anti-Brahmin</option>
+              <option value="option2">Option 2</option>
+              <option value="option3">Option 3</option>
+          </select>
+        </div>
+        <input name="image" type="textarea" id="imagedata" hidden>
+        <img alt="preview" id="preview" height="50%" width="50%" hidden>
+        <input id="imgReport" type="button" value="Take Screenshot">
+        <br>
+        <input id="reportBtn" type="submit" value="report">
+      </form>
+    </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
